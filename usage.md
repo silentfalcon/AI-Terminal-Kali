@@ -4,7 +4,7 @@
 Run:  
 ```bash
 warp
-
+```
 ## 2️⃣ AI Features
 Auto-suggests commands
 Predicts your next command
@@ -15,4 +15,4 @@ Run:
 ```bash
 cd pimpmykali  
 ./pimpmykali.sh  
-
+```
