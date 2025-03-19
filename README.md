@@ -128,7 +128,13 @@ Distributed under MIT License. See [LICENSE](LICENSE) for details.
 ### 🌟 Support
 If you find this project useful, give it a ⭐ on GitHub and share it with the community!
 
----
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/71a96033-82b5-44c5-95c7-5e41a03b9952" width="700">
+</p>
+
+---
+<p align="center">
 **Note**: Requires regular updates with `sudo ./ai-terminal.sh --update`
+</p>
 ```
