@@ -25,7 +25,6 @@ AI-Terminal-Kali/
 ├── ai-terminal.sh        # Main installation script
 ├── PimpMyKali.md         # Optimization documentation
 ├── troubleshooting.md    # Common issue solutions
-├── trasgemd              # Security hardening module (TBA)
 ├── LICENSE               # MIT License
 └── README.md             # This documentation
 ```
@@ -40,24 +39,33 @@ AI-Terminal-Kali/
 
 ### Quick Setup
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/silentfalcon/AI-Terminal-Kali.git
    cd AI-Terminal-Kali
    ```
-
-2. Make scripts executable:
+3. Run the installation script:
+   
    ```bash
    chmod +x ai-terminal.sh
+   ./ai-terminal.sh
    ```
+3.Follow the on-screen instructions to install Warp AI Terminal and optimize Kali using PimpMyKali
 
-3. Run the installation:
+### 🚀 Usage
+
+Once installed, you can use Warp AI Terminal for an enhanced command-line experience:
+
+- Open Warp Terminal:
    ```bash
-   sudo ./ai-terminal.sh --full-setup
+   warp
    ```
-
-4. Configure Warp Terminal:
+   
+- Enable AI-powered suggestions and auto-completions
+  
+- Optimize system performance with PimpMyKali:
    ```bash
-   warp-cli configure --ai-mode=advanced
+   sudo pimpmykali
    ```
 
 ### 🧠 AI Features Usage
@@ -75,7 +83,6 @@ AI-Terminal-Kali/
 ### ⚙️ Configuration Options
    Edit `~/.airc` to customize AI behavior:
    ```ini
-   [ai_settings]
    response_speed=fast
    learning_mode=aggressive
    security_checks=enabled
